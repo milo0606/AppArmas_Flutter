@@ -71,13 +71,17 @@ class _MyAppState extends State<MyApp> {
                             margin: EdgeInsets.only(top: 45),
                             padding: EdgeInsets.only(left: 20, right: 20),
                             child: TextFormField(
+                              maxLength: 11,
                               textInputAction: TextInputAction.next,
                               keyboardType: TextInputType.number,
                               validator: (String value) {
                                 if (value.isEmpty) {
                                   return "Campo Requerido";
                                 }
-                                if (value.length < 11 && value.length > 11) {
+                                if (value.length < 11) {
+                                  return "Debe de tener 11 digitos";
+                                }
+                                if (value.length > 11) {
                                   return "Debe de tener 11 digitos";
                                 }
                                 return null;
@@ -106,6 +110,7 @@ class _MyAppState extends State<MyApp> {
                             margin: EdgeInsets.only(top: 35),
                             padding: EdgeInsets.only(left: 20, right: 20),
                             child: TextFormField(
+                              maxLength: 5,
                               keyboardType: TextInputType.number,
                               textInputAction: TextInputAction.next,
                               validator: (String value) {
