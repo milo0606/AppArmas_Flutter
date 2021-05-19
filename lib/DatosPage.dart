@@ -25,11 +25,11 @@ class DatosPage extends StatelessWidget {
                   child: Stack(
                     children: <Widget>[
                       Container(
-
-                        margin: EdgeInsets.only(top: 15),
+                      width: 300,
                         alignment: Alignment.topCenter,
+                        margin: EdgeInsets.only(top: 1,left: 55),
                         child:
-                        Image(image: AssetImage("Imgs/logopng.png"),),
+                        Image(image: AssetImage("Imgs/MIP.png"),),
                       ),
                       Container(
                         margin: EdgeInsets.only(top: 180),
@@ -246,7 +246,7 @@ class DatosPage extends StatelessWidget {
                             keyboardType: TextInputType.number,
                             textInputAction: TextInputAction.next,
                             decoration: InputDecoration(
-                              contentPadding: EdgeInsets.only(top: 90,bottom: 70),
+                              contentPadding: EdgeInsets.only(top: 90,bottom: 60),
                               enabledBorder: OutlineInputBorder(
                                 borderSide: BorderSide(color: Colors.blueAccent),
                               ),

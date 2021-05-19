@@ -48,6 +48,7 @@ flutter:
   assets:
      - Imgs/logopng.png
      - Imgs/logoMip1.jpg
+     - Imgs/MIP.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

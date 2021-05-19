@@ -42,9 +42,9 @@ class _MyAppState extends State<MyApp> {
                   children: <Widget>[
                     /*Container con el logo*/
                     Container(
-                      width: 200,
+                      width: 500,
                       child: Image(
-                        image: AssetImage("Imgs/logoMip1.jpg"),
+                        image: AssetImage("Imgs/MIP.png"),
                       ),
                     ),
                     /*texto Titulo*/
