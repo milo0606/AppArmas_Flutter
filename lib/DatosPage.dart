@@ -18,6 +18,9 @@ class DatosPage extends StatelessWidget {
 
           centerTitle: true,
           title: Text('Detalles',style: TextStyle(fontFamily: "Quicksand",fontWeight: FontWeight.bold,fontSize: 23),),
+         leading: IconButton(icon: Icon(Icons.arrow_back_ios,size: 25,color: Colors.white,),onPressed: (){Navigator.pop(context);},)
+
+
         ),
         body: ListView(
           children: [
@@ -27,12 +30,14 @@ class DatosPage extends StatelessWidget {
               Center(
                   child: Stack(
                     children: <Widget>[
-                      Container(
-                      width: 300,
-                        alignment: Alignment.topCenter,
-                        margin: EdgeInsets.only(top: 1,left: 55),
-                        child:
-                        Image(image: AssetImage("Imgs/MIP.png"),),
+                      Center(
+                        child: Container(
+                        width: 300,
+                          alignment: Alignment.topCenter,
+                          margin: EdgeInsets.only(top: 1,),
+                          child:
+                          Image(image: AssetImage("Imgs/MIP.png"),),
+                        ),
                       ),
                       Container(
                         margin: EdgeInsets.only(top: 180),
