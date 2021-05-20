@@ -25,8 +25,12 @@ class _MyAppState extends State<MyApp> {
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark));
     return MaterialApp(
+
       debugShowCheckedModeBanner: false,
       title: 'Material App',
+      theme: ThemeData(
+        primaryColor: Color(0xff163e80)
+      ),
       home: Builder(
         builder:  (context) =>
       Scaffold(
@@ -180,7 +184,7 @@ class _MyAppState extends State<MyApp> {
 
 
                                       },
-                                    color: Colors.blue,
+                                    color: Color(0xff163e80),
                                   ),
                                 ),
                               ),

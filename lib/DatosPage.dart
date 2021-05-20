@@ -8,6 +8,9 @@ class DatosPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        primaryColor: Color(0xff163e80)
+      ),
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       home: Scaffold(
@@ -41,10 +44,10 @@ class DatosPage extends StatelessWidget {
                           textInputAction: TextInputAction.next,
                           decoration: InputDecoration(
                             enabledBorder: OutlineInputBorder(
-                              borderSide: BorderSide(color: Colors.blueAccent),
+                              borderSide: BorderSide(color: Color(0xff163e80)),
                             ),
                             labelText: "Nombre del propietario",
-                            prefixIcon: Icon(Icons.person_outline,color: Colors.lightBlue,),
+                            prefixIcon: Icon(Icons.person_outline,color: Color(0xff163e80)),
                             border: OutlineInputBorder(
                                 borderRadius: BorderRadius.all(
                                   Radius.circular(5),
@@ -75,10 +78,10 @@ class DatosPage extends StatelessWidget {
                             textInputAction: TextInputAction.next,
                             decoration: InputDecoration(
                               enabledBorder: OutlineInputBorder(
-                                borderSide: BorderSide(color: Colors.blueAccent),
+                                borderSide: BorderSide(color: Color(0xff163e80)),
                               ),
                               labelText: "Correo Electronico",
-                              prefixIcon: Icon(Icons.alternate_email,color: Colors.lightBlue,),
+                              prefixIcon: Icon(Icons.alternate_email,color: Color(0xff163e80)),
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.all(
                                     Radius.circular(5),
@@ -109,10 +112,10 @@ class DatosPage extends StatelessWidget {
                             textInputAction: TextInputAction.next,
                             decoration: InputDecoration(
                               enabledBorder: OutlineInputBorder(
-                                borderSide: BorderSide(color: Colors.blueAccent),
+                                borderSide: BorderSide(color: Color(0xff163e80)),
                               ),
                               labelText: "Cedula o Rnc",
-                              prefixIcon: Icon(Icons.credit_card,color: Colors.lightBlue,),
+                              prefixIcon: Icon(Icons.credit_card,color:Color(0xff163e80)),
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.all(
                                     Radius.circular(5),
@@ -144,10 +147,10 @@ class DatosPage extends StatelessWidget {
                             textInputAction: TextInputAction.next,
                             decoration: InputDecoration(
                               enabledBorder: OutlineInputBorder(
-                                borderSide: BorderSide(color: Colors.blueAccent),
+                                borderSide: BorderSide(color: Color(0xff163e80)),
                               ),
                               labelText: "Serie",
-                              prefixIcon: Icon(Icons.qr_code_outlined,color: Colors.lightBlue,),
+                              prefixIcon: Icon(Icons.qr_code_outlined,color: Color(0xff163e80)),
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.all(
                                     Radius.circular(5),
@@ -178,10 +181,10 @@ class DatosPage extends StatelessWidget {
                             textInputAction: TextInputAction.next,
                             decoration: InputDecoration(
                               enabledBorder: OutlineInputBorder(
-                                borderSide: BorderSide(color: Colors.blueAccent),
+                                borderSide: BorderSide(color: Color(0xff163e80)),
                               ),
                               labelText: "Tipo de Arma",
-                              prefixIcon: Icon(Icons.warning_amber_outlined,color: Colors.lightBlue,),
+                              prefixIcon: Icon(Icons.warning_amber_outlined,color: Color(0xff163e80)),
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.all(
                                     Radius.circular(5),
@@ -212,10 +215,10 @@ class DatosPage extends StatelessWidget {
                             textInputAction: TextInputAction.next,
                             decoration: InputDecoration(
                               enabledBorder: OutlineInputBorder(
-                                borderSide: BorderSide(color: Colors.blueAccent),
+                                borderSide: BorderSide(color:Color(0xff163e80)),
                               ),
                               labelText: "Monto",
-                              prefixIcon: Icon(Icons.monetization_on_outlined,color: Colors.lightBlue,),
+                              prefixIcon: Icon(Icons.monetization_on_outlined,color: Color(0xff163e80)),
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.all(
                                     Radius.circular(5),
@@ -248,10 +251,10 @@ class DatosPage extends StatelessWidget {
                             decoration: InputDecoration(
                               contentPadding: EdgeInsets.only(top: 90,bottom: 60),
                               enabledBorder: OutlineInputBorder(
-                                borderSide: BorderSide(color: Colors.blueAccent),
+                                borderSide: BorderSide(color: Color(0xff163e80)),
                               ),
                               labelText: "Detalles",
-                              prefixIcon: Icon(Icons.pending_actions,color: Colors.lightBlue,),
+                              prefixIcon: Icon(Icons.pending_actions,color:Color(0xff163e80)),
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.all(
                                     Radius.circular(5),
